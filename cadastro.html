@@ -75,7 +75,7 @@
                             <fieldset class="row gx-3">
                                 <legend>Dados Pessoais</legend>
                                 <div class="form-floating mb-3">
-                                    <input class="form-control" type="text" id="txtNome" placeholder=" " autofocus />
+                                    <input class="form-control" type="text" id="txtNome" placeholder=" " required/>
                                     <label for="txtNome">Nome</label>
                                 </div>
                                 <div class="form-floating mb-3 col-md-6 col-xl-4">
@@ -83,7 +83,7 @@
                                     <label for="txtCPF">CPF</label>
                                 </div>
                                 <div class="form-floating mb-3 col-md-6 col-xl-4">
-                                    <input class="form-control" type="date" id="txtDataNascimento" placeholder=" "required />
+                                    <input class="form-control" type="date" id="txtDataNascimento" placeholder=" " required />
                                     <label for="txtDataNascimento" class="d-inline d-sm-none d-md-inline d-lg-none">Data
                                         Nascimento</label>
                                     <label for="txtDataNascimento" class="d-none d-sm-inline d-md-none d-lg-inline">Data
@@ -93,11 +93,11 @@
                             <fieldset>
                                 <legend>Contatos</legend>
                                 <div class="form-floating mb-3 col-md-8">
-                                    <input class="form-control" type="email" id="txtEmail" placeholder=" "required />
+                                    <input class="form-control" type="email" id="txtEmail" placeholder=" " required />
                                     <label for="txtEmail">E-mail</label>
                                 </div>
                                 <div class="form-floating mb-3 col-md-6">
-                                    <input class="form-control" placeholder=" " type="text" id="txtTelefone"required />
+                                    <input class="form-control" placeholder=" " type="text" id="txtTelefone" required />
                                     <label for="txtTelefone">Telefone</label>
                                 </div>
                             </fieldset>
@@ -116,15 +116,15 @@
                                 </div>
                                 <div class="clearfix"></div>
                                 <div class="form-floating mb-3 col-md-4">
-                                    <input class="form-control" type="text" id="txtNumero" placeholder=" " />
+                                    <input class="form-control" type="text" id="txtNumero" placeholder=" " required/>
                                     <label for="txtNumero">Número</label>
                                 </div>
                                 <div class="form-floating mb-3 col-md-8">
-                                    <input class="form-control" type="text" id="txtComplemento" placeholder=" " />
+                                    <input class="form-control" type="text" id="txtComplemento" placeholder=" " required/>
                                     <label for="txtComplemento">Complemento</label>
                                 </div>
                                 <div class="form-floating mb-3">
-                                    <input class="form-control" type="text" id="txtReferencia" placeholder=" " />
+                                    <input class="form-control" type="text" id="txtReferencia" placeholder=" " required/>
                                     <label for="txtReferencia">Referência</label>
                                 </div>
                             </fieldset>
@@ -179,9 +179,11 @@
                     </div>
                 </div>
             </div>
+            
         </footer>
     </div>
 
+    
     <script src="/node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
 </body>
 
